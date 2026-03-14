@@ -11,7 +11,7 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"], # This allows your HTML to talk to the API
+    allow_origins=["https://agrogaurd-1.onrender.com"], # This allows your HTML to talk to the API
     allow_methods=["*"],
     allow_headers=["*"],
 )

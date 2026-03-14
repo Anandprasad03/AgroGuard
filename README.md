@@ -105,7 +105,7 @@ Follow these steps to set up the project locally.
     ```bash
     uvicorn backend.main:app --reload
     ```
-    *(Note: The server will run on `http://127.0.0.1:8000`)*
+    *(Note: The server will run on `https://agrogaurd-1.onrender.com`)*
 
 5.  **Launch the App**
     Simply open `frontend/index.html` in your web browser to access the dashboard.

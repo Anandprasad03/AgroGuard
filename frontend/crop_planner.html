@@ -698,7 +698,7 @@
 
       try {
         // Ensure this matches your FastAPI server port!
-        const res = await fetch("http://127.0.0.1:8000/crop_planner", {
+        const res = await fetch("https://agrogaurd-1.onrender.com/crop_planner", {
           method: "POST",
           headers: {
             "Content-Type": "application/json"
@@ -1067,7 +1067,7 @@
       const currentLang = langSelect ? langSelect.options[langSelect.selectedIndex].text : 'English';
 
       try {
-        const response = await fetch('http://127.0.0.1:8000/chatbot', {
+        const response = await fetch('https://agrogaurd-1.onrender.com/chatbot', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ message: message, language: currentLang })
